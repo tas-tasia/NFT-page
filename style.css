@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #0d192c;
+  align-items: center;
+}
+.container {
+  background-color: #15263f;
+  border-radius: 10px;
+  padding: 20px;
+}
+.image {
+  max-width: 100%;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.image-box {
+  position: relative;
+  cursor: pointer;
+}
+.eye {
+  position: absolute;
+  top: 0;
+  width: 300px;
+  height: 300px;
+  background: #00fff8;
+  display: none;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+
+.image-box:hover .eye {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+p {
+  color: #8bacd9;
+  font-size: 18px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #2e405a;
+  padding: 0 0 20px 0;
+  margin: 0 0 20px 0;
+}
+.ETH {
+  color: #00fff8;
+  display: flex;
+  gap: 5px;
+}
+.time {
+  color: #8bacd9;
+  display: flex;
+  gap: 5px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #8bacd9;
+}
+.profile span {
+  color: white;
+  cursor: pointer;
+}
+
+span:hover,
+h2:hover {
+  color: #00fff8;
+}
